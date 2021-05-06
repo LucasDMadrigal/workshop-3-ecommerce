@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #100217e6;
+  height: 69px;
+  padding: 23px 15px;
+}
+
+.navbar .burger-menu {
+  width: 26.69px;
+  height: 23.35px;
+  background-image: url("../assets/icons/hamburguesa.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar .logo {
+  width: 139.67px;
+  height: 20.26px;
+  background-image: url("../assets/icons/logo.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar .carrito {
+  width: 26.69px;
+  height: 23.63px;
+  background-image: url("../assets/icons/carrito.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.store-item {
+  width: 331px;
+  height: 232px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .store-item img {
+  object-fit: fill;
+} */
