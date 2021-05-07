@@ -6,9 +6,12 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   background-color: #100217e6;
@@ -43,13 +46,30 @@ html {
   background-repeat: no-repeat;
 }
 
-.store-item {
-  width: 331px;
-  height: 232px;
+main {
   display: flex;
   justify-content: center;
 }
 
-/* .store-item img {
-  object-fit: fill;
-} */
+ul {
+  list-style: none;
+}
+
+main ul img {
+  border-bottom: 2px solid rgb(92, 92, 92);
+  width: 331px;
+  height: 232px;
+}
+
+.item_description {
+  display: flex;
+  flex-direction: column;
+}
+
+.article_title {
+  font-size: 20px;
+}
+.article_price {
+  font-size: 20px;
+  font-weight: bold;
+}
