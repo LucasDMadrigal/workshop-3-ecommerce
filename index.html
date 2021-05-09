@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/tablet.css" media="(min-width: 768px)" />
+    <link rel="stylesheet" href="./src/css/desktop.css" media="(min-width: 1024px)" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -15,43 +17,104 @@
     <nav class="navbar">
         <span class="burger-menu"></span>
         <span class="logo"></span>
-        <span class="carrito"></span>
+        <span class="cart"></span>
     </nav>
 
     <main>
-        <div class="header">
-            <h1>Zapatillas</h1>
+        <div class="sidebar">
+            <div class="header">
+                <h1>Zapatillas</h1>
+            </div>
+            <div class="filter">
+                <h2>Filtrar</h2>
+                <div class="filter_level">
+                    <h3>Categoria</h3>
+                    <div class="filter_level--item">
+                        Zapatillas
+                    </div>
+                    <div class="filter_level--item">
+                        Zapatos
+                    </div>
+                    <div class="filter_level--item">
+                        Botas
+                    </div>
+                    <div class="filter_level--item">
+                        Sandalias
+                    </div>
+                    <div class="filter_level--item">
+                        Pantuflas
+                    </div>
+                </div>
+                <div class="filter_level">
+                    <h3>Talle</h3>
+                    <div class="filter_level--item">
+                        36
+                    </div>
+                    <div class="filter_level--item">
+                        38
+                    </div>
+                    <div class="filter_level--item">
+                        40
+                    </div>
+                    <div class="filter_level--item">
+                        42
+                    </div>
+                    <div class="filter_level--item">
+                        44
+                    </div>
+                </div>
+                <div class="filter_level">
+                    <h3>Color</h3>
+                    <div class="filter_level--item">
+                        Amarillo
+                    </div>
+                    <div class="filter_level--item">
+                        Negro
+                    </div>
+                    <div class="filter_level--item">
+                        Verde
+                    </div>
+                    <div class="filter_level--item">
+                        Azul
+                    </div>
+                    <div class="filter_level--item">
+                        Blanco
+                    </div>
+                </div>
+            </div>
         </div>
-        <ul>
-            <li>
-                <picture>
-                    <img class="store-item" src="./src/assets/images/zapatilla_1.png" alt="zapatilla_1">
-                </picture>
-                <div class="item_description">
-                    <span class="article_title">Zapatilla 1-XFK</span>
-                    <span class="article_price">$5000</span>
-                </div>
-            </li>
-            <li>
-                <picture>
-                    <img class="store-item" src="./src/assets/images/zapatilla_2.png" alt="zapatilla_1">
-                </picture>
-                <div class="item_description">
-                    <span class="article_title">Zapatilla 2000-X</span>
-                    <span class="article_price">$9800</span>
-                </div>
-            </li>
-            <li>
-                <picture>
-                    <img class="store-item" src="./src/assets/images/zapatilla_3.png" alt="zapatilla_1">
-                </picture>
-                <div class="item_description">
-                    <span class="article_title">Zapatilla 3 Run</span>
-                    <span class="article_price">$6500</span>
-                </div>
-            </li>
+        <div class="main-store">
+            <ul>
+                <li>
+                    <picture>
+                        <img class="store-item" src="./src/assets/images/zapatilla_1.png" alt="zapatilla_1">
+                    </picture>
+                    <div class="item_description">
+                        <span class="article_title">Zapatilla 1-XFK</span>
+                        <span class="article_price">$5000</span>
+                    </div>
+                </li>
+                <li>
+                    <picture>
+                        <img class="store-item" src="./src/assets/images/zapatilla_2.png" alt="zapatilla_1">
+                    </picture>
+                    <div class="item_description">
+                        <span class="article_title">Zapatilla 2000-X</span>
+                        <span class="article_price">$9800</span>
+                    </div>
+                </li>
+                <li>
+                    <picture>
+                        <img class="store-item" src="./src/assets/images/zapatilla_3.png" alt="zapatilla_1">
+                    </picture>
+                    <div class="item_description">
+                        <span class="article_title">Zapatilla 3 Run</span>
+                        <span class="article_price">$6500</span>
+                    </div>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
     </main>
     <footer>
         <a href="/">Ayuda</a>
