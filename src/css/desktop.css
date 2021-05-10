@@ -1,3 +1,98 @@
+.navbar .burger-menu {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 206px;
+  height: 29px;
+  margin: 18px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.button-group {
+  display: flex;
+  padding: 1px;
+  justify-content: space-between;
+  position: absolute;
+  right: 30px;
+  width: 95px;
+}
+
+.navbar .search {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background-image: url("../assets/icons/busqueda.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar .user {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background-image: url("../assets/icons/usuario.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar .cart {
+  width: 23px;
+  height: 23px;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-between;
+  width: 804px;
+}
+
+.navbar a {
+  color: #fafafa;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 main {
   background-color: #fafafa;
+  padding: 41px 139px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-store {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.store-item_container {
+  margin: 32px 16px 0;
+}
+
+main ul img {
+  border-bottom: 2px solid rgb(92, 92, 92);
+  width: 260px;
+  height: 182px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 355px;
+}
+
+footer a {
+  display: inline-block;
+  padding: 0;
 }

@@ -15,7 +15,6 @@ html {
   display: flex;
   justify-content: space-between;
   background-color: #100217e6;
-  height: 69px;
   padding: 23px 15px;
 }
 
@@ -28,6 +27,10 @@ html {
   background-repeat: no-repeat;
 }
 
+.nav_links {
+  display: none;
+}
+
 .navbar .logo {
   width: 139.67px;
   height: 20.26px;
@@ -37,7 +40,8 @@ html {
   background-repeat: no-repeat;
 }
 
-.navbar .cart {
+.navbar > .button-group > .cart {
+  display: inline-block;
   width: 26.69px;
   height: 23.63px;
   background-image: url("../assets/icons/carrito.svg");
@@ -92,7 +96,6 @@ footer {
   align-items: center;
   justify-content: space-around;
   padding: 15px;
-  height: 161px;
   background-color: #100217e6;
 }
 
@@ -100,4 +103,5 @@ footer a {
   color: #fafafa;
   text-decoration: none;
   font-size: 1.6rem;
+  padding: 15px;
 }
